@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Programa {
+public class RevertString {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		String s = scanner.nextLine();
@@ -11,7 +11,7 @@ public class Programa {
 			char charAt = s.charAt(i);
 			String valueOf = String.valueOf(charAt);
 			output = output.concat(valueOf);
-		}
+		}// testanto
 		System.out.print(output);
 	}
 }
