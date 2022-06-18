@@ -11,7 +11,7 @@ public class RevertString {
 			char charAt = s.charAt(i);
 			String valueOf = String.valueOf(charAt);
 			output = output.concat(valueOf);
-		}// testanto
+		}
 		System.out.print(output);
 	}
 }
